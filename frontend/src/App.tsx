@@ -15,7 +15,7 @@ function App() {
   // Chromakey settings
   const [hexColor, setHexColor] = useState("");
   const [similarity, setSimilarity] = useState(0.1);
-  const [blend, setBlend] = useState(0.05);
+  const [blend, setBlend] = useState(0);
   const [crf, setCrf] = useState(24);
   const [includeAudio, setIncludeAudio] = useState(true);
 
